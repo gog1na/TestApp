@@ -14,6 +14,6 @@ struct Person: Codable {
     let hex: String?
     let imageUrl: String?
     let numHearts: Int?
-    let numVotes: Int?
+    let numViews: Int?
     let numComments: Int?
 }

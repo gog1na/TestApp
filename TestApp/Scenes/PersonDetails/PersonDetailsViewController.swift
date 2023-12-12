@@ -29,7 +29,7 @@ class PersonDetailsViewController: UIViewController {
         guard let hex = person?.hex,
               let image = person?.imageUrl,
               let likeCount = person?.numHearts,
-              let starCount = person?.numVotes,
+              let starCount = person?.numViews,
               let commentCount = person?.numComments,
               let date = person?.dateCreated else { return }
         view.backgroundColor = UIColor(hex: hex)
